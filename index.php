@@ -8,6 +8,6 @@
 	<link rel="stylesheet" href="src/css/main.css">
 </head>
 <body>
-	<?php include_once('php/partials/components/button.php');?>
+	<?php include_once('php/partials/layouts/home/article.php');?>
 </body>
 </html>

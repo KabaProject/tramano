@@ -1,0 +1,27 @@
+.home-article{
+	max-width: 475px;
+
+	&__title{
+		font-size: $font-s-header;
+		font-weight: 700;
+		line-height: calc(5rem * 1.2);
+		color: $color-white;
+	}
+
+	&__text{
+		max-width: 440px;
+		font-size: $font-s-text-small;
+		line-height: calc(1.6rem * 1.8);
+		margin: 15px 0 20px 0;
+		color: $color-white;
+	}
+
+	&__buttons{
+		display: grid;
+		row-gap: 15px;
+	}
+}
+
+body{
+	background-color: $color-primary;
+}
