@@ -1,4 +1,4 @@
-.home-article{
+.principal-article{
 	max-width: 475px;
 
 	&__title{
@@ -20,8 +20,4 @@
 		display: grid;
 		row-gap: 15px;
 	}
-}
-
-body{
-	background-color: $color-primary;
 }
