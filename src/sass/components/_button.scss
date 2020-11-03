@@ -47,6 +47,10 @@
 	&--full{
 		width: 100%;
 	}
+
+	&--small{
+		height: 45px;
+	}
 }
 
 .button{
@@ -111,6 +115,10 @@
 		& > *{
 				font-size: $font-mb-s-text;
 			}
+
+		&--small{
+			height: 45px;
+		}
 
 		&--icon{
 			width: 100%;

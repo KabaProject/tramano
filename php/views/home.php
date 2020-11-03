@@ -39,6 +39,6 @@
 
 	</header> -->
 
-	<?php include_once('php/partials/layouts/modal.php'); ?>
+	<?php include_once('php/partials/layouts/menu.php'); ?>
 </body>
 </html>
