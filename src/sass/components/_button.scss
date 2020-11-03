@@ -103,11 +103,22 @@
 
 @media screen and (max-width: 425px){
 	.button{
-		height: 45px;
+		width: 100%;
+		height: 55px;
 		padding: 0px 24px;
+		justify-content: center;
+
+		& > *{
+				font-size: $font-mb-s-text;
+			}
 
 		&--icon{
-			height: 45px;
+			width: 100%;
+			height: 55px;
+
+			& > *{
+				font-size: $font-mb-s-text;
+			}
 		}
 	}
 }

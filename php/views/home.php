@@ -23,6 +23,9 @@
 					<p class="principal-article__text">
 						En tramano buscamos que puedas desarrollarte como un profesional ofreciendote vacantes previamente revisadas por nuestro equipo. ¿Por que no le hechas un vistazo a lo que hay?
 					</p>
+					<p class="principal-article__text--mobile">
+						En tramano buscamos que puedas desarrollarte como un profesional ofreciendote vacantes revisadas por nuestro equipo.
+					</p>
 					<div class="principal-article__buttons">
 						<a href="" class="button button--primary button--rounded">Comenzar a buscar
 						</a>

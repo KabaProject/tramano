@@ -30,3 +30,16 @@
 		font-size: $font-s-title-4;
 	}
 }
+
+
+@media screen and (max-width: 425px){
+	.principal-socials{
+		&__icon{
+			font-size: $font-s-title-2;
+		}
+
+		&__text{
+			display:none;
+		}
+	}
+}

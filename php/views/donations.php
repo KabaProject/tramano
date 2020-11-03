@@ -23,6 +23,9 @@
 					<p class="principal-article__text">
 						Las Donaciones son apoyos que nos permitirán ir desarrollando el proyecto para que, eventualmente, pueda ser sustentable de una manera en la que el usuario no requiera pagar ni un centavo.
 					</p>
+					<p class="principal-article__text--mobile">
+						Con tu apoyo podremos mantener este proyecto a flote sin cobrar un centavo a los usuarios.
+					</p>
 					<div class="principal-article__buttons">
 						<button class="button--icon button--primary button--rounded">
 							<span class="iconify button--icon__icon" data-icon="simple-icons:paypal" data-inline="false"></span>
