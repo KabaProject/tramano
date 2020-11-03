@@ -21,3 +21,26 @@
 		row-gap: 15px;
 	}
 }
+
+@media screen and (max-width: 768px){
+	.principal-article{
+		max-width: 600px;
+
+		& > *{
+			text-align: center;
+		}
+
+		&__title{
+			font-size: $font-mb-s-header;
+		}
+
+		&__text{
+			max-width: 750px;
+			font-size: $font-s-text;
+		}
+
+		&__buttons{
+			justify-content: center;
+		}
+	}
+}
