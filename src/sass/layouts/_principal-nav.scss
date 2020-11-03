@@ -1,0 +1,28 @@
+.principal-nav{
+	display: flex;
+	align-items: center;
+
+	& *{
+		color: $color-white;
+		text-decoration: none;
+	}
+
+	&__brand{
+		font-size: $font-s-title-3;
+		font-weight: 600;
+		margin-right: 24px;
+	}
+
+	&__link{
+		margin-right: 15px;
+		font-size: $font-s-text;
+
+		&:nth-last-child(1){
+			margin-right: none;
+		}
+
+		&:hover{
+			text-decoration: underline;
+		}
+	}
+}

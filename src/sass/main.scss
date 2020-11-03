@@ -12,4 +12,14 @@
 @import 'components/button';
 
 // Layout
-@import 'layouts/principal-article';
+@import 'layouts/principal-article',
+		'layouts/principal-socials',
+		'layouts/principal-nav';
+
+// Templates
+@import 'templates/principal';
+
+// Pages
+@import 'pages/home',
+		'pages/publish',
+		'pages/donate';

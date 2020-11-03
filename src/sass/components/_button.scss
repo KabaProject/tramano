@@ -54,7 +54,7 @@
 		background-color: $color-primary;
 		border: none;
 
-		& > *{
+		&, & > *{
 			color: $color-white;
 		}
 		&:hover{
@@ -67,7 +67,7 @@
 		background-color: $color-white;
 		border: none;
 
-		& > *{
+		&, & > *{
 			color: $color-primary;
 		}
 	}
@@ -76,7 +76,7 @@
 		background-color: transparent;
 		border: 2px solid $color-white;
 
-		& > *{
+		&, & > *{
 			color: $color-white;
 		}
 		&:hover{

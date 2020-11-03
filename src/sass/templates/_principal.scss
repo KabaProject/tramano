@@ -1,0 +1,69 @@
+.principal{
+
+	&__header{
+		min-height: 100vh;
+		background-image: linear-gradient(45deg, $color-primary, $color-primary-light);
+
+		position: relative;
+		overflow: hidden;
+
+	}
+
+	&__image{
+		position: absolute;
+		z-index: auto;
+	}
+
+	&__content{
+		width: 100%;
+		height: 100%;
+		padding: 24px 30px;
+		display: grid;
+		justify-content: start;
+		grid-template-columns: 60% auto;
+		grid-template-rows: 40px 1fr 30px;
+		grid-template-areas: "Nav" "Article" "Socials";
+		position: absolute;
+		z-index: auto;
+	}
+
+	&__nav{
+		grid-area: Nav;
+		display: flex;
+		align-items: center;
+	}
+
+	&__article{
+		grid-area: Article;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	&__socials{
+		grid-area: Socials;
+	}
+}
+
+
+@media screen and (max-width: 1024px){
+	.principal{
+		&__content{
+			grid-template-columns: 65% auto;
+		}
+	}
+}
+
+
+@media screen and (max-width: 768px){
+	.principal{
+
+		&__image{
+			opacity: 0.3;
+		}
+
+		&__content{
+			grid-template-columns: 100%;
+		}
+	}
+}

@@ -1,0 +1,25 @@
+.donate{
+	&__image{
+		width: calc(590px * 0.9);
+		height: calc(780px * 0.9);
+		background-image: url('../img/donation.svg');
+		background-repeat: no-repeat;
+		background-size: contain;
+		bottom: -90px;
+		right: 40px;
+	}
+}
+
+@media screen and (max-width: 1024px){
+	.donate{
+		&__image{
+			width: calc(274px * 1.1);
+			height: calc(647px * 1.1);
+			background-image: url('../img/donation-mobile.svg');
+			background-repeat: no-repeat;
+			background-size: contain;
+			bottom: -90px;	
+			right: 100px;
+		}
+	}
+}

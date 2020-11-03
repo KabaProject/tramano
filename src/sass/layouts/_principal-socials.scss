@@ -1,0 +1,32 @@
+.principal-socials{
+	display: flex;
+	align-items: center;
+
+	& *{
+		color: $color-white;
+	}
+
+	&__text{
+		font-size: $font-s-title-4;
+		font-weight: 600;
+		margin-right: 15px;
+	}
+
+	&__links{
+		display: flex;
+		align-item: center;
+	}
+
+	&__link{
+		text-decoration: none;
+		margin-right: 15px;
+
+		&:nth-last-child(1){
+			margin-right: 0px;
+		}
+	}
+
+	&__icon{
+		font-size: $font-s-title-4;
+	}
+}

@@ -1,0 +1,25 @@
+.publish{
+	&__image{
+		width: calc(926px * 0.83);
+		height: calc(903px * 0.83);
+		background-image: url('../img/publish.svg');
+		background-repeat: no-repeat;
+		background-size: contain;
+		bottom: -100px;
+		right: -150px;
+	}
+}
+
+@media screen and (max-width: 1024px){
+	.publish{
+		&__image{
+			width: calc(926px * 0.75);
+			height: calc(903px * 0.75);
+			background-image: url('../img/publish-mobile.svg');
+			background-repeat: no-repeat;
+			background-size: contain;
+			bottom: -100px;
+			right: -250px;
+		}
+	}
+}
