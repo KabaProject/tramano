@@ -18,7 +18,8 @@
 		'layouts/principal-socials',
 		'layouts/principal-nav',
 		'layouts/modal',
-		'layouts/menu';
+		'layouts/menu',
+		'layouts/nav';
 
 // Templates
 @import 'templates/principal';
@@ -26,4 +27,5 @@
 // Pages
 @import 'pages/home',
 		'pages/publish',
-		'pages/donate';
+		'pages/donate',
+		'pages/jobs';

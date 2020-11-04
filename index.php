@@ -14,7 +14,9 @@ if(isset($_GET['page'])){
 		case 'publish':
 			include_once('php/views/publish.php');
 			break;
-
+		case 'jobs':
+			include_once('php/views/jobs.php');
+			break;
 		default:
 			echo "<h1>Error 404: Pagina no encontrada</h1>";
 			break;
