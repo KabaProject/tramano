@@ -1,0 +1,83 @@
+.job-card{
+	width: 606px;
+	padding: 24px;
+	display: grid;
+	text-decoration: none;
+	grid-template-columns: 3fr 1fr;
+	grid-template-areas:
+		"Title Salary"
+		"IconTags Salary"
+		"Extract Extract"
+		"Tags Ago";
+	background-color: $color-white;
+	border-radius: 5px;
+	box-shadow: $box-shadow-z1;
+
+	&__title{
+		grid-area: Title;
+		font-size: $font-s-title-4;
+		font-weight: 600;
+		margin-bottom: 10px;
+	}
+
+	&__tags--icon{
+		grid-area: IconTags;
+		display: flex;
+		margin-bottom: 15px;
+	}
+
+	&__tag{
+		display: flex;
+		align-items: center;
+
+		&:nth-child(1){
+			margin-right: 15px;
+		}
+
+		& > *:nth-child(1){
+			margin-right: 5px;
+		}
+
+		& > *{
+			font-size: $font-s-label;
+		}
+	}
+
+
+	&__tags{
+		grid-area: Tags;
+		font-size: $font-s-label;
+		opacity: 0.7;
+		& > *{
+			font-size: $font-s-label;
+		}
+	}
+
+	&__salary{
+		grid-area: Salary;
+		font-size: $font-s-title-4;
+		color: $color-primary;
+		font-weight: 600;
+		justify-self: end;
+
+		& > *{
+			font-size: $font-s-label;
+			font-weight: 600;
+		}
+	}
+
+	&__extract{
+		grid-area: Extract;
+		font-size: $font-s-label;
+		opacity: 0.7;
+		margin-bottom: 25px;
+		line-height: 1.8rem;
+	}
+
+	&__ago{
+		grid-area: Ago;
+		font-size: $font-s-label;
+		opacity: 0.7;
+		justify-self: end;
+	}
+}
