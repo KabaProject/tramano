@@ -40,5 +40,9 @@
 		</section>
 
 	</header>
+
+	<?php include_once('php/partials/layouts/menu.php'); ?>
+
+	<?php include_once('php/partials/layouts/principal-scripts.php'); ?>
 </body>
 </html>

@@ -1,0 +1,35 @@
+@keyframes fade-out-modal{
+	from{
+		bottom: 0;
+	}
+	to{
+		bottom: -100vh;
+	}
+}
+
+@keyframes fade-in-modal{
+	from{
+		bottom: -100vh;
+	}
+	to{
+		bottom: 0;
+	}
+}
+
+@keyframes hide-modal{
+	from{
+		opacity: 1;
+	}
+	to{
+		opacity: 0;
+	}
+}
+
+@keyframes show-modal{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}

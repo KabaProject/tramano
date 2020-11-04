@@ -8,12 +8,12 @@
 	<link rel="stylesheet" href="src/css/main.css">
 </head>
 <body class="principal">
-	<!-- <header class="principal__header">
+	<header class="principal__header">
 		<div class="principal__image home__image"></div>
 		<section class="principal__content">
 			<nav class="principal__nav">
-				<?php // include_once('php/partials/layouts/principal-nav.php');?>
-				<?php // include_once('php/partials/layouts/principal-nav-mobile.php');?>
+				<?php include_once('php/partials/layouts/principal-nav.php');?>
+				<?php include_once('php/partials/layouts/principal-nav-mobile.php');?>
 			</nav>
 			<section class="principal__article">
 				<article class="principal-article">
@@ -33,12 +33,14 @@
 				</article>
 			</section>
 			<nav class="principal__socials">
-				<?php //include_once('php/partials/layouts/principal-socials.php');?>
+				<?php include_once('php/partials/layouts/principal-socials.php');?>
 			</nav>
 		</section>
 
-	</header> -->
+	</header>
 
 	<?php include_once('php/partials/layouts/menu.php'); ?>
+
+	<?php include_once('php/partials/layouts/principal-scripts.php'); ?>
 </body>
 </html>
