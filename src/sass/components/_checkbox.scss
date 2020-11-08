@@ -1,0 +1,43 @@
+.checkbox{
+	display: flex;
+	align-items: center;
+	column-gap: 12px;
+	cursor: pointer;
+
+	&--active{
+		display: flex;
+		align-items: center;
+		column-gap: 12px;
+		cursor: pointer;
+
+		& .checkbox__icon{
+			display: none;
+		}
+		& .checkbox__icon--primary{
+			display: inline-block;
+		}
+
+		& > span {
+			color: $color-primary;
+		}
+	}
+
+	&__input{
+		display: none;
+	}
+
+	&__icon{
+		font-size: $font-s-title-4;
+		color: $color-text;
+
+		&--primary{
+			display: none;
+			color: $color-primary;
+		}
+	}
+
+	&__label{
+		font-size: $font-s-label;
+		color: $color-text;
+	}
+}
