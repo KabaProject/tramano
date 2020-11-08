@@ -1,0 +1,89 @@
+.job-search-form{
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+
+	&__keyword{
+		width: 350px;
+		padding: 0px 20px;
+		display: flex;
+		align-items: center;
+		margin-right: 4px;
+		background-color: $color-white;
+		box-shadow: $box-shadow-z1;
+		border-radius: 5px 0 0 5px;
+		column-gap: 16px;
+	}
+
+	&__wrapper{
+		display: flex;
+		box-shadow: $box-shadow-z1;
+		background-color: $color-white;
+		border-radius: 0 5px 5px 0;
+	}
+
+	&__city{
+		width: 300px;
+		padding: 0px 20px;
+		display: flex;
+		align-items: center;
+		position: relative;
+		column-gap: 16px;
+	}
+
+	&__options{
+		width: 100%;
+		display: none;
+		flex-direction: column;
+		position: absolute;
+		top: 105%;
+		left: 0;
+		padding: 5px 5px;
+		background-color: $color-white;
+		box-shadow: $box-shadow-z1;	
+		border-radius: 0 0 5px 5px;
+	}
+
+	&__option{
+		display: flex;
+		align-items: center;
+		font-size: $font-s-text;
+		padding: 15px 15px;
+
+		&:hover{
+			background-color: #ddd;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+	}
+
+	&__icon{	
+		font-size: 3rem;
+
+		&--op{
+			font-size: $font-s-title-3;
+			margin-right: 16px;
+		}
+	}
+
+	&__input{
+		width: 100%;
+		font-size: $font-s-text;
+		font-weight: 600;
+		border: none;
+		color: $color-text;
+
+		&::placeholder{
+			font-weight: 400;
+		}
+		&:focus{
+			outline: none;
+		}
+	}
+
+	&__button{
+		height: 100%;
+		padding: 10px;
+	}
+}
