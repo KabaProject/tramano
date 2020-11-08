@@ -8,6 +8,6 @@
 	<link rel="stylesheet" href="src/css/main.css">
 </head>
 <body class="jobs">
-	<?php include_once('php/partials/components/job-search-form.php'); ?>
+	<?php include_once('php/partials/layouts/job-search.php'); ?>
 </body>
 </html>
